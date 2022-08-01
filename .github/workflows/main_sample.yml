@@ -41,6 +41,7 @@ jobs:
 
       - name: tbc hokey pokey
         run: docker compose exec dvmdostem-run pwd
+      - name: f2
         run: docker compose exec dvmdostem-run python -v
 
       - name: docker build dvmdostem-mapping-support image
