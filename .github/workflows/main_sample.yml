@@ -46,7 +46,7 @@ jobs:
         run: docker compose exec dvmdostem-run "python -v"
 
       - name: docker build dvmdostem-mapping-support image
-        run docker build --tag dvmdostem-mapping-support:0.0.1 -f Dockerfile-mapping-support .
+        run: docker build --tag dvmdostem-mapping-support:0.0.1 -f Dockerfile-mapping-support .
 
 
       # Runs a set of commands using the runners shell
